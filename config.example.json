@@ -1,0 +1,36 @@
+{
+  "active_profile": "ai_pixel",
+  "profiles": {
+    "ai_pixel": {
+      "request_mode": "openai_images",
+      "base_url": "https://cf.ai-pixel.online",
+      "model": "gpt-image-2",
+      "api_key": "填你的 ai-pixel API Key"
+    },
+    "gpt_image_2": {
+      "request_mode": "openai_images",
+      "base_url": "https://tokenclub.top",
+      "model": "gpt-image-2",
+      "api_key": "填你的 OpenAI 兼容图片 API Key"
+    },
+    "volcengine": {
+      "request_mode": "volcengine",
+      "base_url": "https://ark.cn-beijing.volces.com/api/plan/v3/images/generations",
+      "model": "doubao-seedream-5.0-lite",
+      "api_key": "填你的火山引擎 API Key",
+      "default_size": "4K"
+    },
+    "new": {
+      "request_mode": "new",
+      "base_url": "https://flow2api.example.com/v1/chat/completions",
+      "model": "gemini-3.1-flash-image-landscape",
+      "api_key": "填你的 flow2api API Key"
+    },
+    "old": {
+      "request_mode": "old",
+      "base_url": "https://example.com/v1/chat/completions",
+      "model": "gemini-3-pro-image-preview",
+      "api_key": "填你的旧接口 API Key"
+    }
+  }
+}

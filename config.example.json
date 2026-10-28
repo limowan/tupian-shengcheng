@@ -3,7 +3,7 @@
   "profiles": {
     "ai_pixel": {
       "request_mode": "openai_images",
-      "base_url": "https://cf.ai-pixel.online",
+      "base_url": "https://ai-pixel.online",
       "model": "gpt-image-2",
       "api_key": "填你的 ai-pixel API Key"
     },

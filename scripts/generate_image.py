@@ -693,7 +693,7 @@ def main() -> int:
     parser.add_argument("--model", default=None, help="Model name")
     parser.add_argument("--api-key", default=None, help="API key (overrides env/config)")
     parser.add_argument("--out", default=None, help="Output file path or directory")
-    parser.add_argument("--timeout", type=int, default=120, help="Request timeout seconds")
+    parser.add_argument("--timeout", type=int, default=600, help="Request timeout seconds")
     parser.add_argument("--no-stream", action="store_true", help="Disable streaming")
     parser.add_argument("--size", default="auto", help="Image size for openai_images mode")
     parser.add_argument("--quality", default="medium", help="Image quality for openai_images mode")
